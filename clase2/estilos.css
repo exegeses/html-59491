@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(1, 36, 36);  
+    color:  #CDFF9C;
+    font-family: 'Lucida Sans', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0px;
+    font-size: 1em;
+}
+header{
+    background-color:  rgb(4, 16, 16); 
+    height: 120px;
+}
+main{
+    height: 600px;
+}
+    h1{
+        text-align: center;
+    }
+        h1 span{
+           color: rgb(255, 255, 154); 
+        }
+
+footer{
+    height: 150px;
+    background-color:  rgb(7, 11, 11);;
+}
