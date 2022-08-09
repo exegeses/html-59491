@@ -1,0 +1,23 @@
+body{
+    /* color de fondo, 
+       color de texto, 
+       familia tipográfica,
+       tamaño de la tipografía
+    */
+    background-color: #f8f8f8;
+    color: #707070;
+    font-family: helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+header{
+    background-color: #FF7600;
+    height: 60px;
+}
+nav{
+    text-align: center; /* centrar en horizontal contenidos de nav */
+}
+    nav a{
+        color: #fff;
+        text-decoration: none; /* quitar el subrayado */
+    }
