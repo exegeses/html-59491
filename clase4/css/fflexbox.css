@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: helvetica, sans-serif;
+    color: #666;
+}
+main{
+    width: 800px;
+    margin: auto; /* centrar una caja */
+
+    background-color: rgb(133, 133, 133);
+    height: 500px;
+
+    display: flex; /* ubicar cajas contenidas 
+                    una al lado de la otra */
+
+    /* distribución en eje horizontal */
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+    justify-content: space-between;
+
+    /* distribución en eje vertical */
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+
+}
+#naranja{
+    background-color: rgb(255, 212, 84);
+    width: 200px;
+    height: 200px;
+}
+#verde{
+    background-color: rgb(84, 255, 92);
+    width: 200px;
+    height: 200px;
+}

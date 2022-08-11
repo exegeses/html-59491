@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: helvetica, sans-serif;
+    color: #666;
+}
+main{
+    width: 800px;
+    margin: auto; /* centrar una caja */
+
+    background-color: rgb(133, 133, 133);
+    height: 500px;
+}
+
+#naranja{
+    background-color: rgb(255, 212, 84);
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+}
+#verde{
+    background-color: rgb(84, 255, 92);
+    width: 200px;
+    height: 200px;
+    /* margin-top: 5px; */
+    /* margin-left: 20px; */
+    margin: 20px;
+}
+#miparrafo{
+    text-align: center;
+}
