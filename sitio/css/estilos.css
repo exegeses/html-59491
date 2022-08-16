@@ -44,5 +44,25 @@ header{
 
 #hero{
     height: 500px;
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -120px;
 
+    display: flex;
+    vertical-align: center;
 }
+
+    #hero div{
+        width: 1100px;
+        margin: auto;
+    }
+    #hero h1{
+        width: 400px;
+        color: #FFB968;
+        font-size: 36px;
+    }
+    #hero p{
+        width: 400px;
+        margin-top: 24px;
+    }
