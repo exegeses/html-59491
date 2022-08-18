@@ -95,15 +95,23 @@ main{
         flex-wrap: wrap;  /* respeta los anchos */
     }
 
+    #promos h2{
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
     #promos #promo1{
         background-color: #807871;
         color: #fff;
         width: 550px;
         height: 550px;
+        padding: 100px 80px 100px 80px;
     }
     #promos #promo2{
         background-color: #E3B684;
         color: #fff;
         width: 550px;
         height: 550px;
+        padding: 100px 80px 100px 80px;
     }

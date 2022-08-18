@@ -19,7 +19,7 @@ main{
     background-color: rgb(255, 212, 84);
     width: 200px;
     height: 200px;
-    padding: 25px;
+    padding: 50px;
 }
 #verde{
     background-color: rgb(84, 255, 92);
@@ -27,7 +27,7 @@ main{
     height: 200px;
     /* margin-top: 5px; */
     /* margin-left: 20px; */
-    margin: 20px;
+    margin: 50px;
 }
 #miparrafo{
     text-align: center;
