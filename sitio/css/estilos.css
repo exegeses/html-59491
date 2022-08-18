@@ -15,6 +15,8 @@ a{
     text-decoration: none;
 }
 
+/*##  header  ##*/
+
 header{
     height: 72px;
     width: 1100px;
@@ -65,4 +67,29 @@ header{
     #hero p{
         width: 400px;
         margin-top: 24px;
+    }
+
+/*##  main  ##*/
+main{
+    width: 1100px;
+    margin: auto;
+}
+    /*##  primer separador  "let's go hiking"  ##*/
+
+    h2{
+        margin-top: 88px;
+        font-size: 32px;
+        color: #FFB968;
+        text-align: center;
+    }
+    #separador p{
+        width: 600px;
+        margin: 24px auto 88px auto; 
+        text-align: center;
+    }
+
+/*##  promos  ##*/
+
+    #promos{
+        
     }
