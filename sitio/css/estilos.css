@@ -76,7 +76,7 @@ main{
 }
     /*##  primer separador  "let's go hiking"  ##*/
 
-    h2{
+    #separador h2{
         margin-top: 88px;
         font-size: 32px;
         color: #FFB968;
@@ -91,5 +91,19 @@ main{
 /*##  promos  ##*/
 
     #promos{
-        
+        display: flex;   
+        flex-wrap: wrap;  /* respeta los anchos */
+    }
+
+    #promos #promo1{
+        background-color: #807871;
+        color: #fff;
+        width: 550px;
+        height: 550px;
+    }
+    #promos #promo2{
+        background-color: #E3B684;
+        color: #fff;
+        width: 550px;
+        height: 550px;
     }
