@@ -129,4 +129,22 @@ main{
             font-weight: 600;
             /* margin-top: 82px; */
         }
-    
+
+/*##  historia  ##*/
+    #historia{
+        display: flex;
+        justify-content: space-between;
+    }
+
+        #historia article{
+            width: 339px;
+            background-color: #807871;
+            color: #fff;
+        }
+
+        #historia article h3{
+            margin: 24px 36px 16px 36px;
+        }
+        #historia article p{
+            margin: 8px 36px 16px 36px;
+        }
