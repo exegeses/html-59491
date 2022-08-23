@@ -115,3 +115,17 @@ main{
         height: 550px;
         padding: 100px 80px 100px 80px;
     }
+
+    /*##  segundo separador  "hiking de aventura"  ##*/
+    #separador2{
+        height: 200px;
+        display: flex;
+        align-items: center; /* centrar en vertical */
+        justify-content: center; /* centrar en horizontal */
+    }
+        #separador2 h2{
+            color: #FFB968;
+            font-size: 32px;
+            font-weight: 600;
+            /* margin-top: 82px; */
+        }
