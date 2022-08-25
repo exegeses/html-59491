@@ -148,3 +148,66 @@ main{
         #historia article p{
             margin: 8px 36px 16px 36px;
         }
+
+/*##  contacto  ##*/
+#contacto{
+    height: 580px;
+    margin-top: 80px;
+    padding-top: 48px;
+    background-image: url(../imgs/hero-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+    #contacto form{
+        width: 698px;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        /*background-color: rgba(255, 255, 255, .5);*/
+        padding: 32px;
+        border-radius: 12px;
+    }
+
+    #contacto label{
+        padding: 8px;
+        display: block;
+    }
+    #contacto input, textarea{
+        width: 100%;
+        margin-top: 8px;
+        padding: 12px;
+        border: 1px solid #CECECE;
+        border-radius: 8px;
+        font-family: Raleway;
+        font-size: 16px;
+    }
+    #contacto textarea{
+        height: 80px;
+        resize: vertical;
+    }
+    #contacto button{
+        background-color: #F7BB74;
+        border: 1px solid #FA9E30;
+        width: 50%;
+        margin-top: 8px;
+        padding: 12px;
+        border-radius: 8px;
+        font-family: Raleway;
+        font-size: 16px;
+    }
+    #contacto button:hover{
+        background-color: #f9ad50;
+    }
+
+/*###  footer  ###*/    
+footer{
+    background-color: #807871;
+    margin-top: 80px;
+}
+    #pie{
+        width: 1100px;
+        margin: auto;
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+    }
